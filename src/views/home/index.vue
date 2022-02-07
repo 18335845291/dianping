@@ -1,11 +1,13 @@
 <template>
-  <div>
-    首页
-  </div>
+ <div>
+   <work-bench></work-bench>
+ </div>
 </template>
 
 <script>
+import WorkBench from '../home/components/WorkBench.vue'
 export default {
+  components: { WorkBench },
   name:'home'
 }
 </script>
